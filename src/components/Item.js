@@ -10,7 +10,7 @@ function Item({ name, category }) {
     <li className={x ? "in-cart" : ""}>
       <span>{name}</span>
       <span className="category">{category}</span>
-      <button onClick={handleClick} className={x ? "remove" : "add"}>{x ? "Add to Cart" : "Remove From Cart"}</button>
+      <button onClick={handleClick} className={x ? "remove" : "add"}>{x ? "Remove From Cart" : "Add to Cart"}</button>
     </li>
   );
 }
